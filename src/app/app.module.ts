@@ -5,7 +5,7 @@ import { AppRouting } from './app-routing';
 import { V1Module } from './modules/v1/v1.module';
 
 @NgModule({
-  imports: [ BrowserModule,AppRouting,V1Module ],  
+  imports: [ BrowserModule,AppRouting,V1Module],  
   declarations: [ AppComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
